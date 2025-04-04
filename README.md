@@ -22,11 +22,10 @@ This repository contains the full implementation of our **Quantum-Enhanced Fusio
 ## 📊 Results & Ablation Study  
 
 ### Accuracy Comparison  
-![Accuracy Graph](path/to/accuracy_plot.png)  <!-- Update with the actual path in your repo -->
+![Accuracy Graph](accuracy_plot.png)  
 
 ### Inference Time vs. Accuracy  
-![Inference Time vs Accuracy](path/to/inference_time_plot.png)  <!-- Update with actual path -->
-
+![Inference Time vs Accuracy](inference_time_plot.png)  
 > 📌 **Key Takeaway**: The fused model achieves superior accuracy with a minimal inference-time tradeoff.
 
 ---
