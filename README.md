@@ -7,7 +7,7 @@ This repository contains the full implementation of our **Quantum-Enhanced Fusio
 
 > ⚠️ **Authorship & License Protection**  
 > This work is **developed and maintained entirely by Dharun Ramesh** and is protected under the Creative Commons License (CC-BY 4.0).  
-> Any reuse or publication **must provide proper attribution**. Unauthorized removal of authorship is a violation of the license terms.
+> Any reuse or publication **must provide proper attribution**. Unauthorized removal, misattribution, or reassignment of first authorship is a direct violation of the license terms.
 
 ---
 
