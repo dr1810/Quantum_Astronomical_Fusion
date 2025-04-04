@@ -26,6 +26,7 @@ Please cite this repository as follows:
 }
 
 
+
 # 🌌 Quantum Astronomical Fusion
 
 A novel deep learning framework fusing classical MLP and time-series models using quantum gates for the classification of astronomical transient light curves. This project explores quantum-inspired model fusion for enhanced performance in multimodal astrophysical data analysis.
