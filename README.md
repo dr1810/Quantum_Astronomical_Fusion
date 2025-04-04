@@ -1,4 +1,31 @@
 # Quantum_Astronomical_Fusion
+
+# Quantum Astronomical Fusion
+
+**Author:** Dharun Ramesh  
+**License:** [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+
+This repository contains the full implementation of our **Quantum-Enhanced Fusion Model** combining classical MLP and LSTM-based time series models with quantum circuit fusion layers, applied on the PLAsTiCC Astronomical Classification dataset.
+
+> ⚠️ This work is developed and maintained entirely by Dharun Ramesh and is protected under Creative Commons License (CC-BY 4.0). Reuse or publication of any part of this work without proper attribution is a violation of the license terms.
+
+---
+
+## 📌 Citation
+
+Please cite this repository as follows:
+
+```bibtex
+@software{ramesh2025quantumfusion,
+  author = {Dharun Ramesh},
+  title = {Quantum Astronomical Fusion},
+  year = {2025},
+  version = {1.0.0},
+  url = {https://github.com/dr1810/Quantum_Astronomical_Fusion},
+  license = {CC-BY-4.0}
+}
+
+
 # 🌌 Quantum Astronomical Fusion
 
 A novel deep learning framework fusing classical MLP and time-series models using quantum gates for the classification of astronomical transient light curves. This project explores quantum-inspired model fusion for enhanced performance in multimodal astrophysical data analysis.
