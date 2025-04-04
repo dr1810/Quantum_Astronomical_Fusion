@@ -1,19 +1,39 @@
-# Quantum_Astronomical_Fusion
-
-# Quantum Astronomical Fusion
+# Quantum Astronomical Fusion  
 
 **Author:** Dharun Ramesh  
-**License:** [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+**License:** [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)  
 
-This repository contains the full implementation of our **Quantum-Enhanced Fusion Model** combining classical MLP and LSTM-based time series models with quantum circuit fusion layers, applied on the PLAsTiCC Astronomical Classification dataset.
+This repository contains the full implementation of our **Quantum-Enhanced Fusion Model**, which combines classical MLP and LSTM-based time series models with quantum circuit fusion layers. The model is applied to the **PLAsTiCC Astronomical Classification dataset** for celestial object classification.
 
-> ⚠️ This work is developed and maintained entirely by Dharun Ramesh and is protected under Creative Commons License (CC-BY 4.0). Reuse or publication of any part of this work without proper attribution is a violation of the license terms.
+> ⚠️ **Authorship & License Protection**  
+> This work is **developed and maintained entirely by Dharun Ramesh** and is protected under the Creative Commons License (CC-BY 4.0).  
+> Any reuse or publication **must provide proper attribution**. Unauthorized removal of authorship is a violation of the license terms.
 
 ---
 
-## 📌 Citation
+## 🚀 Features  
+✔️ **Hybrid Model Fusion**: MLP for metadata + LSTM for time-series + Quantum circuits for feature enhancement  
+✔️ **Benchmarking Against Baselines**: Compared against classical MLP and LSTM-only models  
+✔️ **Astronomical Dataset Application**: Uses PLAsTiCC dataset to classify celestial objects  
+✔️ **Fully Open Source & Reproducible**  
 
-Please cite this repository as follows:
+---
+
+## 📊 Results & Ablation Study  
+
+### Accuracy Comparison  
+![Accuracy Graph](path/to/accuracy_plot.png)  <!-- Update with the actual path in your repo -->
+
+### Inference Time vs. Accuracy  
+![Inference Time vs Accuracy](path/to/inference_time_plot.png)  <!-- Update with actual path -->
+
+> 📌 **Key Takeaway**: The fused model achieves superior accuracy with a minimal inference-time tradeoff.
+
+---
+
+## 📌 Citation  
+
+If you use this work, **please cite it as follows**:  
 
 ```bibtex
 @software{ramesh2025quantumfusion,
@@ -24,53 +44,3 @@ Please cite this repository as follows:
   url = {https://github.com/dr1810/Quantum_Astronomical_Fusion},
   license = {CC-BY-4.0}
 }
-
-
-
-# 🌌 Quantum Astronomical Fusion
-
-A novel deep learning framework fusing classical MLP and time-series models using quantum gates for the classification of astronomical transient light curves. This project explores quantum-inspired model fusion for enhanced performance in multimodal astrophysical data analysis.
-
----
-
-## 📌 Highlights
-
-- 🔮 **Quantum Gate Fusion** of classical MLP and LSTM models
-- 📈 Tested on PLAsTiCC Astronomical Lightcurve Dataset
-- 🧠 Ablation study with standalone MLP, LSTM, and fused models
-- 🧪 Accuracy vs Inference Time comparison
-- ⚛️ Integration with TensorFlow Quantum (TFQ)
-- 📝 Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
-
----
-
-## 🧬 Model Architecture
-
-- **MLP Branch**: Handles static metadata (e.g., redshift, photoz)
-- **LSTM Branch**: Processes time-series light curve data
-- **Quantum Fusion Layer**: Inspired by quantum gates for feature fusion
-- **Re-fusion Strategy**: Split → fuse → split → final fusion
-
----
-
-## 📁 Dataset
-
-- **PLAsTiCC (Photometric LSST Astronomical Time-series Classification Challenge)**
-- Subset used from Hugging Face Datasets:  
-  [`MultimodalUniverse/plasticc`](https://huggingface.co/datasets/MultimodalUniverse/plasticc)
-
----
-
-## 🚀 Getting Started
-
-```bash
-# Clone the repository
-git clone https://github.com/dr1810/Quantum_Astronomical_Fusion.git
-cd Quantum_Astronomical_Fusion
-
-# (Optional) Create a virtual environment
-python3 -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
-
-# Install dependencies
-pip install -r requirements.txt
